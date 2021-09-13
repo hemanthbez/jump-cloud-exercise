@@ -25,3 +25,10 @@ e.g. *curl http://localhost:8090/stats*
 
 4. "/shutdown" (with GET) - Shuts down the server once all the Pending requests are processed <br/>
 e.g. *curl http://localhost:8090/shutdown*
+
+
+# Source Code Info
+
+1. **password-hash.go** : Main file that includes all the application endpoints.
+
+2. **rest-handler.go** : Utility *go* file that has the basic HTTP handlers defined. 
